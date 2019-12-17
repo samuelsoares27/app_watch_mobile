@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "679558973433",
+    "firebase_url": "https://bdwatchmobile.firebaseio.com",
+    "project_id": "bdwatchmobile",
+    "storage_bucket": "bdwatchmobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679558973433:android:0bb51ae61efd1d60589f28",
+        "android_client_info": {
+          "package_name": "com.quotedstrqaz.app_watch_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679558973433-c53rpc7itdom5it8mg5q8k1cecqpj11n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.quotedstrqaz.app_watch_mobile",
+            "certificate_hash": "9b29bacb4aaa880e847ca8441d1061ae7a9a3143"
+          }
+        },
+        {
+          "client_id": "679558973433-nuj9r59j6nqkojhs45a3i3r5m9uc9n9o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL-t50gT8h7BFwAjxKS50v7Q31Y1lLxkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679558973433-nuj9r59j6nqkojhs45a3i3r5m9uc9n9o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
