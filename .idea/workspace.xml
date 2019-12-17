@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="373d7b4b-19ed-419e-8bc5-379c6f080d41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/android/app/google-services.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/main_dart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/main_dart.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/widget_test.dart" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -29,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="366">
+              <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -142,13 +133,13 @@
       <window_info id="Captures" side_tool="true" />
       <window_info id="Resources Explorer" />
       <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
       <window_info anchor="bottom" id="Dart Analysis" weight="0.20530726" />
-      <window_info anchor="bottom" id="Run" visible="true" weight="0.21648045" />
+      <window_info active="true" anchor="bottom" id="Run" visible="true" weight="0.21648045" />
       <window_info anchor="bottom" id="Logcat" />
       <window_info anchor="bottom" id="TODO" />
       <window_info anchor="bottom" id="Debug" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" />
@@ -187,13 +178,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -208,10 +192,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="366">
+          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
