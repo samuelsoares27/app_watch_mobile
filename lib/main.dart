@@ -41,22 +41,46 @@ class _MyHomePageState extends State<MyHomePage>{
         ),
         body: Column(
           children: <Widget>[
-            Container(
+            Padding(
+              padding: new EdgeInsets.fromLTRB(20.0, 50.0, 40.0, 0.0),
               child: TextField(
-                decoration: InputDecoration.collapsed(hintText: "Login"),
+               onChanged: null,
+                autocorrect: true,
+                decoration: InputDecoration(
+                    hintText: "Digite o seu Login...",
+                    labelText: "Login",
+                    icon: Icon(Icons.people)
+                ),
               ),
             ),
-            Container(
+            Padding(
+              padding: new EdgeInsets.fromLTRB(20.0, 20.0, 40.0, 0.0),
               child: TextField(
-                decoration: InputDecoration.collapsed(hintText: "Senha"),
+                onChanged: null,
+                autocorrect: true,
+                decoration: InputDecoration(
+                    hintText: "Digite o sua Senha...",
+                    labelText: "Senha",
+                    icon: Icon(Icons.security)
+                ),
               ),
             ),
-            Container(
-              child: IconButton(
-                icon: Icon(Icons.android),
-                onPressed: (){},
-              ),
+            Padding(
+              padding: new EdgeInsets.fromLTRB(0.0, 20.0, 0.0, 0.0),
+              child: SizedBox(
+                width: 150,
+                child: RaisedButton.icon(
+                  onPressed: (){},
+                  icon: Icon(
+                      Icons.done
+                  ),
+                  label: Text('Google'),
+                  textColor: Colors.white,
+                  color: Colors.indigo,
+                ),
+              ) ,
             )
+
           ],
         ),
       ),
