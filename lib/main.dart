@@ -40,9 +40,10 @@ class _MyHomePageState extends State<MyHomePage>{
             centerTitle: true,
         ),
         body: Column(
+          //mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Padding(
-              padding: new EdgeInsets.fromLTRB(20.0, 50.0, 40.0, 0.0),
+              padding: new EdgeInsets.fromLTRB(20.0, 150.0, 40.0, 0.0),
               child: TextField(
                onChanged: null,
                 autocorrect: true,
@@ -67,18 +68,42 @@ class _MyHomePageState extends State<MyHomePage>{
             ),
             Padding(
               padding: new EdgeInsets.fromLTRB(0.0, 20.0, 0.0, 0.0),
-              child: SizedBox(
-                width: 150,
-                child: RaisedButton.icon(
-                  onPressed: (){},
-                  icon: Icon(
-                      Icons.done
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Padding(
+                    padding: new EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0),
+                    child:SizedBox(
+                      width: 150,
+                      child: RaisedButton.icon(
+                        onPressed: (){},
+                        icon: Icon(
+                            Icons.done
+                        ),
+                        label: Text('Google'),
+                        textColor: Colors.indigo,
+                        color: Colors.white,
+                      ),
+                    ) ,
                   ),
-                  label: Text('Google'),
-                  textColor: Colors.white,
-                  color: Colors.indigo,
-                ),
-              ) ,
+                  Padding(
+                    padding: new EdgeInsets.fromLTRB(5.0, 0.0, 0.0, 0.0),
+                    child:SizedBox(
+                      width: 150,
+                      child: RaisedButton.icon(
+                        onPressed: (){},
+                        icon: Icon(
+                            Icons.done
+                        ),
+                        label: Text('Email'),
+                        textColor: Colors.white,
+                        color: Colors.indigo,
+                      ),
+                    ) ,
+                  )
+                ],
+              ),
+
             )
 
           ],
