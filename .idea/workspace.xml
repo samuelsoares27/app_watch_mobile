@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="373d7b4b-19ed-419e-8bc5-379c6f080d41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/ui/login.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/cadastro.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/cadastro.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -21,6 +22,9 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3_API_26" />
+  <component name="FavoritesManager">
+    <favorites_list name="app_watch_mobile" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -34,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/ui/login.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="131" selection-start-line="131" selection-end-line="131" />
+            <state relative-caret-position="431">
+              <caret line="30" selection-start-line="30" selection-end-line="129" selection-end-column="1" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
                 <element signature="e#497#3675#0" />
@@ -48,11 +52,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/ui/cadastro.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="192">
+              <caret line="93" selection-start-line="93" selection-end-line="95" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+                <element signature="e#1058#1380#0" />
+                <element signature="e#892#1300#0" />
+                <element signature="e#1946#2276#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,17 +80,17 @@
         <option value="$PROJECT_DIR$/.flutter-plugins" />
         <option value="$PROJECT_DIR$/.flutter-plugins-dependencies" />
         <option value="$PROJECT_DIR$/android/app/build.gradle" />
-        <option value="$PROJECT_DIR$/lib/ui/cadastro.dart" />
         <option value="$PROJECT_DIR$/lib/main.dart" />
         <option value="$PROJECT_DIR$/lib/ui/login.dart" />
+        <option value="$PROJECT_DIR$/lib/ui/cadastro.dart" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="635" />
-    <option name="y" value="301" />
-    <option name="width" value="980" />
-    <option name="height" value="1050" />
+    <option name="x" value="140" />
+    <option name="y" value="35" />
+    <option name="width" value="1470" />
+    <option name="height" value="825" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -125,6 +135,9 @@
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../buscador_de_gifs" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="dart.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -158,28 +171,38 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Structure" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Structure" sideWeight="0.5018797" side_tool="true" weight="0.24966443" />
+      <window_info id="Favorites" sideWeight="0.5018797" side_tool="true" weight="0.24966443" />
       <window_info id="Build Variants" side_tool="true" />
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="Captures" side_tool="true" />
       <window_info id="Resources Explorer" />
       <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4981203" visible="true" weight="0.24966443" />
       <window_info anchor="bottom" id="Dart Analysis" weight="0.20530726" />
-      <window_info active="true" anchor="bottom" id="Run" visible="true" weight="0.48044693" />
-      <window_info anchor="bottom" id="Logcat" />
-      <window_info anchor="bottom" id="TODO" />
-      <window_info anchor="bottom" id="Debug" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32960895" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Run" sideWeight="0.49798658" weight="0.25698325" />
+      <window_info anchor="bottom" id="Logcat" sideWeight="0.4986577" weight="0.26675978" />
+      <window_info anchor="bottom" id="TODO" sideWeight="0.49932885" weight="0.32960895" />
+      <window_info anchor="bottom" id="Debug" sideWeight="0.49932885" weight="0.29748604" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49932885" weight="0.32960895" />
+      <window_info active="true" anchor="bottom" id="Event Log" sideWeight="0.50201344" side_tool="true" visible="true" weight="0.25698325" />
+      <window_info anchor="bottom" id="Flutter Performance" sideWeight="0.50201344" side_tool="true" weight="0.25698325" />
+      <window_info anchor="bottom" id="Version Control" sideWeight="0.49932885" weight="0.32960895" />
+      <window_info anchor="bottom" id="Find" />
       <window_info anchor="bottom" id="Messages" weight="0.32960895" />
       <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
       <window_info anchor="right" id="Device File Explorer" side_tool="true" />
@@ -245,21 +268,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ui/cadastro.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/ui/login.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        <state relative-caret-position="431">
+          <caret line="30" selection-start-line="30" selection-end-line="129" selection-end-column="1" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
             <element signature="e#497#3675#0" />
             <element signature="e#2627#3041#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ui/cadastro.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="93" selection-start-line="93" selection-end-line="95" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#1058#1380#0" />
+            <element signature="e#892#1300#0" />
+            <element signature="e#1946#2276#0" />
           </folding>
         </state>
       </provider>
