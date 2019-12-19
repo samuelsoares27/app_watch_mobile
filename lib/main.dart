@@ -5,6 +5,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:app_watch_mobile/ui/cadastro.dart';
 
 
 void main() => runApp(MyApp());
@@ -100,14 +101,29 @@ class _MyHomePageState extends State<MyHomePage>{
                         color: Colors.indigo,
                       ),
                     ) ,
-                  )
+                  ),
                 ],
               ),
-
-            )
-
+            ),
+            Container(
+              height:40,
+              child: FlatButton(
+                child: Text(
+                  "Cadastre-se",
+                  textAlign: TextAlign.center,
+                  style: TextStyle(color: Colors.blue),
+                ),
+                onPressed: (){
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => CadastroPage())
+                  );
+                },
+              ),
+            ) ,
           ],
         ),
+
       ),
     );
   }
